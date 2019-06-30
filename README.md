@@ -1,6 +1,8 @@
 # terminal-agenda
-:fr: terminal-agenda est un moyen facile et simple de s'organiser, le tout, uniquement à partir d'un terminal.  
-:us: terminal-agenda is an easy and simple way to organize yourself, and only within terminal.
+:fr: terminal-agenda est un moyen facile et simple de s'organiser uniquement à partir d'un terminal.  
+(Fonctionne sur **Linux** ou **MacOS**. Pour les utilisateurs de **Windows**, vous pouvez télécharger Cygwin pour exécuter le script shell).  
+:us: terminal-agenda is an easy and simple way to organize yourself uniquely from the terminal.  
+(Works on **Linux** or **MacOS**. For **Windows** users, you can download Cygwin in order to execute the shell script).
 
 ## Dépendances:fr:/Dependancies:us:
 - ncal
