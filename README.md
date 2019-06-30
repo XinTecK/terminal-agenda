@@ -44,3 +44,7 @@ Application language : :fr:
 - Delete a task
 - Delete a task from a specific group
 - Display a task graphic timeline for the 30 next days (day with / without task)
+
+### Licence:fr:/License:us:
+:fr: terminal-agenda est sous la [licence MIT](https://opensource.org/licenses/MIT); voir le fichier "LICENSE".  
+:us: terminal-agenda is licensed under the [MIT license](https://opensource.org/licenses/MIT); see the "LICENSE" file.
