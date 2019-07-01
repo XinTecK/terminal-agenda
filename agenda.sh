@@ -20,11 +20,9 @@ clear
 echo -e "Bonjour et bienvenue dans l'agenda ! \n \n"
 
 echo "[1] Créer une nouvelle tâche"
-echo "[2] Créer un nouveau groupe"
-echo "[3] Supprimer une tâche"
-echo "[4] Supprimer un groupe"
-echo "[5] Lister mes tâches"
-echo -e "[6] Quitter l'agenda \n \n"
+echo "[2] Supprimer une tâche"
+echo "[3] Lister mes tâches"
+echo -e "[4] Quitter l'agenda \n \n"
 
 read -p "Que voulez-vous faire ? " choix
 
@@ -60,11 +58,7 @@ if [ $choix == 1 ]; then # |||||| CREER NOUVELLE TACHE ||||||
 		exit
 	fi
 	# Quand tâche rentrée, trier les listes d'un groupe par date
-elif [ $choix == 2 ]; then # |||||| CREER NOUVEAU GROUPE ||||||
-	read -p "Entrez un nom de groupe : " nomGroupe
-	# Condition si le groupe existe déjà (vérifier dans le tableau groupe)
-	# ---- Tableau Groupe se créer en lisant le fichier texte (partie groupe) ----
-elif [ $choix == 3 ]; then # ||||||| SUPPRIMER UNE TACHE ||||||
+elif [ $choix == 2 ]; then # ||||||| SUPPRIMER UNE TACHE ||||||
 	read -p "Selectionner par groupe[1] ou par date[2] ou sans filtre[3] ? " choix
 	if [ $choix == 1 ]; then
 		# Lister les groupes
@@ -107,11 +101,7 @@ elif [ $choix == 3 ]; then # ||||||| SUPPRIMER UNE TACHE ||||||
 		# Message de vérification
 	# A compléter !!
 	fi
-elif [ $choix == 4 ]; then # |||||| SUPPRIMER UN GROUPE (Récursive ou pas ?) ||||||
-	# Lister les groupes
-	read -p "Quel groupe supprimer ? " groupe
-	# Message de vérification
-elif [ $choix == 5 ]; then # |||||| LISTER LES TÂCHES AVEC MOIS ET GROUPE EN OPTION ||||||
+elif [ $choix == 3 ]; then # |||||| LISTER LES TÂCHES AVEC MOIS ET GROUPE EN OPTION ||||||
 	clear
 	echo "Lister par groupe[1], par date[2], ou sans filtre[3] ?"
 	read choix
@@ -174,6 +164,6 @@ elif [ $choix == 5 ]; then # |||||| LISTER LES TÂCHES AVEC MOIS ET GROUPE EN OP
 			Etat : $etat\n"
 		done <./.task
 	fi
-elif [ $choix == 6 ]; then # |||||| QUITTER ||||||
+elif [ $choix == 4 ]; then # |||||| QUITTER ||||||
 	exit
 fi
