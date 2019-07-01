@@ -1,6 +1,8 @@
 # terminal-agenda
-:fr: terminal-agenda est un moyen facile et simple de s'organiser, le tout, uniquement à partir d'un terminal.  
-:us: terminal-agenda is an easy and simple way to organize yourself, and only within terminal.
+:fr: terminal-agenda est un moyen facile et simple de s'organiser uniquement à partir d'un terminal.  
+(Fonctionne sur **Linux** et **MacOS**. Pour les utilisateurs de **Windows**, vous pouvez télécharger Cygwin pour exécuter le script shell).  
+:us: terminal-agenda is an easy and simple way to organize yourself uniquely from the terminal.  
+(Works on **Linux** and **MacOS**. For **Windows** users, you can download Cygwin in order to execute the shell script).
 
 ## Dépendances:fr:/Dependancies:us:
 - ncal
@@ -13,16 +15,16 @@
 Langage de l'application : :fr:
 
 ### Fonctionnalités opérationnelles actuelles :
-- Ajouter une tâche
-- Attacher un groupe à cette tâche
-- Lister toutes les tâches
-- Lister toutes les tâches d'un groupe spécifique
-- Lister toutes les tâches d'une dâte spécifique
+- Ajouter une tâche et attacher un groupe à celle-ci
+![task_add](https://user-images.githubusercontent.com/43551457/60402634-74e1db00-9b92-11e9-81bb-e87d7ee33aa9.png)
+- Lister toutes les tâches (filtres possibles : par groupe ou par date)
+![list_taskByGroup](https://user-images.githubusercontent.com/43551457/60402639-8b883200-9b92-11e9-9531-36a03680f6f7.png)
+![list_taskResult](https://user-images.githubusercontent.com/43551457/60402641-9e9b0200-9b92-11e9-96e4-e4a724847da2.png)
 
 ### Fonctionnalités à venir :
 - Supprimer une tâche
 - Supprimer une tâche à partir d'un groupe spécifique
-- Afficher une réprésentation chronologique des 30 prochains jours (jour avec ou sans tâche)
+- Afficher une réprésentation chronologique des 30 prochains jours (jour avec / sans tâche)
 
 ## How to install :us:
 1.   `git clone https://github.com/XinTecK/terminal-agenda`
@@ -32,13 +34,17 @@ Langage de l'application : :fr:
 Application language : :fr:
 
 ### Current functionnal features :
-- Add a task
-- Attach a group to that task
-- List all the tasks
-- List all the tasks from a specific group
-- List all the tasks from a specific date
+- Add a task and attach a group to it
+![task_add](https://user-images.githubusercontent.com/43551457/60402634-74e1db00-9b92-11e9-81bb-e87d7ee33aa9.png)
+- List all the tasks (filters possible : by group or by date)
+![list_taskByGroup](https://user-images.githubusercontent.com/43551457/60402639-8b883200-9b92-11e9-9531-36a03680f6f7.png)
+![list_taskResult](https://user-images.githubusercontent.com/43551457/60402641-9e9b0200-9b92-11e9-96e4-e4a724847da2.png)
 
 ### Incoming features :
 - Delete a task
 - Delete a task from a specific group
-- Display a task graphic timeline for the 30 next days (day with or without task)
+- Display a task graphic timeline for the 30 next days (day with / without task)
+
+### Licence:fr:/License:us:
+:fr: terminal-agenda est sous la [licence MIT](https://opensource.org/licenses/MIT); voir le fichier "LICENSE".  
+:us: terminal-agenda is licensed under the [MIT license](https://opensource.org/licenses/MIT); see the "LICENSE" file.
