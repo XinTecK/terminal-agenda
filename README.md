@@ -18,13 +18,13 @@ Langage de l'application : :fr:
 ### Fonctionnalités opérationnelles actuelles :
 - Ajouter une tâche et attacher un groupe à celle-ci
 ![taskAdd](https://user-images.githubusercontent.com/43551457/60456103-aad99a80-9c38-11e9-86cb-38b86178bd3f.png)
-- Lister toutes les tâches (filtres possibles : par groupe ou par date)
+- Lister toutes les tâches (filtres possibles : par groupe ou par date)  
 *par groupe*  
 ![taskListByGroup](https://user-images.githubusercontent.com/43551457/60456155-c93f9600-9c38-11e9-9ff0-dd00c438dd71.png)
-![taskGroupResult](https://user-images.githubusercontent.com/43551457/60456157-cba1f000-9c38-11e9-9ef4-287ec834813a.png)
+![taskGroupResult](https://user-images.githubusercontent.com/43551457/60456157-cba1f000-9c38-11e9-9ef4-287ec834813a.png)  
 *par date*  
 ![taskByDate](https://user-images.githubusercontent.com/43551457/60456188-e83e2800-9c38-11e9-9f58-08328309bf7d.png)
-![taskDateResult](https://user-images.githubusercontent.com/43551457/60456191-ea07eb80-9c38-11e9-8d4f-5d28eb0a6d40.png)
+![taskDateResult](https://user-images.githubusercontent.com/43551457/60456191-ea07eb80-9c38-11e9-8d4f-5d28eb0a6d40.png)  
 
 ### Fonctionnalités à venir :
 - Supprimer une tâche
@@ -43,13 +43,13 @@ Application language : :fr:
 ### Current functionnal features :
 - Add a task and attach a group to it
 ![taskAdd](https://user-images.githubusercontent.com/43551457/60456103-aad99a80-9c38-11e9-86cb-38b86178bd3f.png)
-- List all the tasks (filters possible : by group or by date)
+- List all the tasks (filters possible : by group or by date)  
 *by group*  
 ![taskListByGroup](https://user-images.githubusercontent.com/43551457/60456155-c93f9600-9c38-11e9-9ff0-dd00c438dd71.png)
 ![taskGroupResult](https://user-images.githubusercontent.com/43551457/60456157-cba1f000-9c38-11e9-9ef4-287ec834813a.png)
 *by date*  
 ![taskByDate](https://user-images.githubusercontent.com/43551457/60456188-e83e2800-9c38-11e9-9f58-08328309bf7d.png)
-![taskDateResult](https://user-images.githubusercontent.com/43551457/60456191-ea07eb80-9c38-11e9-8d4f-5d28eb0a6d40.png)
+![taskDateResult](https://user-images.githubusercontent.com/43551457/60456191-ea07eb80-9c38-11e9-8d4f-5d28eb0a6d40.png)  
 
 ### Incoming features :
 - Delete a task
