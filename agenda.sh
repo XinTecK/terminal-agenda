@@ -33,7 +33,7 @@ if [ $choix == 1 ]; then # |||||| CREER NOUVELLE TACHE ||||||
 	echo -e " --- CREATION DE TACHE --- \n"
 	echo -e "Nous sommes le \c"
 	echo -e "$(date +%d/%m/%Y), soit le $(date) \n"
-	ncal 2018
+	ncal -A 6 -B 1
 	echo -e "\n"
 	read -p "Entrez une date (jj/mm/yyyy) : " dateTache
 	read -p "Entrez la description de la tâche : " descriptionTache
