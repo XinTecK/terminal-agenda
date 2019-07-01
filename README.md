@@ -38,7 +38,7 @@ Langage de l'application : :fr:
 
 Application language : :fr:
 
-*All your tasks are stored in the `.task` file. If you want to delete a task, you have to do it mannualy (delete the task line)(**this feature will be release soon**). You can manually add/modify your tasks in this file too.*  
+*All your tasks are stored in the `.task` file. If you want to delete a task, you have to do it manually (delete the task line)(**this feature will be release soon**). You can manually add/modify your tasks in this file too.*  
 
 ### Current functionnal features :
 - Add a task and attach a group to it
