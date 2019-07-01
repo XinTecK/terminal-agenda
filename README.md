@@ -4,45 +4,56 @@
 :us: terminal-agenda is an easy and simple way to organize yourself uniquely from the terminal.  
 (Works on **Linux** and **MacOS**. For **Windows** users, you can download Cygwin in order to execute the shell script).
 
-## Dépendances:fr:/Dependancies:us:
-- ncal
+![menu](https://user-images.githubusercontent.com/43551457/60454404-048b9600-9c34-11e9-9c76-992d1980b06d.png)
 
 ## Comment l'installer :fr:
 1.   `git clone https://github.com/XinTecK/terminal-agenda`
 2.   `cd terminal-agenda`
-3.   exécuter `./agenda.sh`
+3.   `./agenda.sh`
+
+*Toutes vos tâches sont stockées dans le fichier `.task`. Si vous voulez supprimer une tâche, vous devez le faire manuellement (supprimer la ligne de la tâche)(**cette fonctionnalité sera bientôt disponible**). Vous pouvez également ajouter/modifier manuellement vos tâches dans ce fichier.*  
 
 Langage de l'application : :fr:
 
 ### Fonctionnalités opérationnelles actuelles :
 - Ajouter une tâche et attacher un groupe à celle-ci
-![task_add](https://user-images.githubusercontent.com/43551457/60402634-74e1db00-9b92-11e9-81bb-e87d7ee33aa9.png)
+![taskAdd](https://user-images.githubusercontent.com/43551457/60456103-aad99a80-9c38-11e9-86cb-38b86178bd3f.png)
 - Lister toutes les tâches (filtres possibles : par groupe ou par date)
-![list_taskByGroup](https://user-images.githubusercontent.com/43551457/60402639-8b883200-9b92-11e9-9531-36a03680f6f7.png)
-![list_taskResult](https://user-images.githubusercontent.com/43551457/60402641-9e9b0200-9b92-11e9-96e4-e4a724847da2.png)
+*par groupe*  
+![taskListByGroup](https://user-images.githubusercontent.com/43551457/60456155-c93f9600-9c38-11e9-9ff0-dd00c438dd71.png)
+![taskGroupResult](https://user-images.githubusercontent.com/43551457/60456157-cba1f000-9c38-11e9-9ef4-287ec834813a.png)
+*par date*  
+![taskByDate](https://user-images.githubusercontent.com/43551457/60456188-e83e2800-9c38-11e9-9f58-08328309bf7d.png)
+![taskDateResult](https://user-images.githubusercontent.com/43551457/60456191-ea07eb80-9c38-11e9-8d4f-5d28eb0a6d40.png)
 
 ### Fonctionnalités à venir :
 - Supprimer une tâche
-- Supprimer une tâche à partir d'un groupe spécifique
+- Supprimer une tâche à partir d'un groupe ou d'une date spécifique
 - Afficher une réprésentation chronologique des 30 prochains jours (jour avec / sans tâche)
 
 ## How to install :us:
 1.   `git clone https://github.com/XinTecK/terminal-agenda`
 2.   `cd terminal-agenda`
-3.   run `./agenda.sh`
+3.   `./agenda.sh`
 
 Application language : :fr:
 
+*All your tasks are stored in the `.task` file. If you want to delete a task, you have to do it mannualy (delete the task line)(**this feature will be release soon**). You can manually add/modify your tasks in this file too.*  
+
 ### Current functionnal features :
 - Add a task and attach a group to it
-![task_add](https://user-images.githubusercontent.com/43551457/60402634-74e1db00-9b92-11e9-81bb-e87d7ee33aa9.png)
+![taskAdd](https://user-images.githubusercontent.com/43551457/60456103-aad99a80-9c38-11e9-86cb-38b86178bd3f.png)
 - List all the tasks (filters possible : by group or by date)
-![list_taskByGroup](https://user-images.githubusercontent.com/43551457/60402639-8b883200-9b92-11e9-9531-36a03680f6f7.png)
-![list_taskResult](https://user-images.githubusercontent.com/43551457/60402641-9e9b0200-9b92-11e9-96e4-e4a724847da2.png)
+*by group*  
+![taskListByGroup](https://user-images.githubusercontent.com/43551457/60456155-c93f9600-9c38-11e9-9ff0-dd00c438dd71.png)
+![taskGroupResult](https://user-images.githubusercontent.com/43551457/60456157-cba1f000-9c38-11e9-9ef4-287ec834813a.png)
+*by date*  
+![taskByDate](https://user-images.githubusercontent.com/43551457/60456188-e83e2800-9c38-11e9-9f58-08328309bf7d.png)
+![taskDateResult](https://user-images.githubusercontent.com/43551457/60456191-ea07eb80-9c38-11e9-8d4f-5d28eb0a6d40.png)
 
 ### Incoming features :
 - Delete a task
-- Delete a task from a specific group
+- Delete a task from a specific group/date
 - Display a task graphic timeline for the 30 next days (day with / without task)
 
 ### Licence:fr:/License:us:
