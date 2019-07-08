@@ -1,8 +1,8 @@
 # terminal-agenda
 :fr: terminal-agenda est un moyen facile et simple de s'organiser uniquement à partir d'un terminal.  
-(Fonctionne sur **Linux** et **MacOS**. Pour les utilisateurs de **Windows**, vous pouvez télécharger Cygwin pour exécuter le script shell).  
+(Fonctionne sur **Linux**, **MacOS** et **Windows**. Pour les utilisateurs de **Windows**, vous n'aurez juste pas la fonction ncal (qui permet d'afficher un calendrier)).  
 :us: terminal-agenda is an easy and simple way to organize yourself uniquely from the terminal.  
-(Works on **Linux** and **MacOS**. For **Windows** users, you can download Cygwin in order to execute the shell script).
+(Works on **Linux**, **MacOS** and **Windows**. For **Windows** users, you'll only miss the ncal function (which permit to display a calendar)).
 
 ![menu](https://user-images.githubusercontent.com/43551457/60454404-048b9600-9c34-11e9-9c76-992d1980b06d.png)
 
