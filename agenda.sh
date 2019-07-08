@@ -54,6 +54,7 @@ if [ $choix == 1 ]; then # |||||| CREER NOUVELLE TACHE ||||||
 		cat ./.temp >./.task
 		>./.temp
 		echo "Mise à jour réussi !"
+		read -n 1 -s -r -p "Appuyez sur une touche pour continuer..."
 	else
 		exit
 	fi
@@ -91,6 +92,7 @@ elif [ $choix == 2 ]; then # ||||||| SUPPRIMER UNE TACHE ||||||
 			echo "Mise à jour réussi !"
 			sleep 4
 			cat ./.task
+			read -n 1 -s -r -p "Appuyez sur une touche pour continuer..."
 		else
 			exit
 		fi
@@ -131,6 +133,7 @@ elif [ $choix == 3 ]; then # |||||| LISTER LES TÂCHES AVEC MOIS ET GROUPE EN OP
 				echo ""
 			fi
 		done <./.task
+		read -n 1 -s -r -p "Appuyez sur une touche pour continuer..."
 	elif [ $choix == 2 ]; then
 		read -p "Entrez une date (jj/mm/yyyy) : " date
 		reset
@@ -150,6 +153,7 @@ elif [ $choix == 3 ]; then # |||||| LISTER LES TÂCHES AVEC MOIS ET GROUPE EN OP
 				echo ""
 			fi
 		done <./.task
+		read -n 1 -s -r -p "Appuyez sur une touche pour continuer..."
 	elif [ $choix == 3 ]; then
 		reset
 		echo -e "Nous sommes le \c"
@@ -163,6 +167,7 @@ elif [ $choix == 3 ]; then # |||||| LISTER LES TÂCHES AVEC MOIS ET GROUPE EN OP
 			Groupe : $groupe\n\
 			Etat : $etat\n"
 		done <./.task
+		read -n 1 -s -r -p "Appuyez sur une touche pour continuer..."
 	fi
 elif [ $choix == 4 ]; then # |||||| QUITTER ||||||
 	exit
